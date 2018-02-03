@@ -1,0 +1,19 @@
+@mixin transition {
+  transition: all 4s ease-in-out;
+}
+
+$btn-border: #dde1e4;
+$btn-border-hover: #ec9c49;
+
+$soft: #dde1e4;
+$amber: #ec9c49;
+$white: #ffffff;
+$dirty-white: #fcfbf9;
+$sage: #9BA59C;
+$dark-sage: #6F756F;
+
+$radius: 2px;
+
+$section-bottom: 60px;
+
+$flex: flex;

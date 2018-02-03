@@ -1,0 +1,55 @@
+.shopify-buy__modal {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+
+  .shopify-buy__btn--close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .shopify-buy__product-img-wrapper,
+  .modal__product-details,
+  .shopify-buy__product-description,
+  .shopify-buy__btn {
+    width: 48%;
+    display: inline-block;
+  }
+
+  .shopify-buy__product-img-wrapper {
+    float: left;
+  }
+
+  .modal__product-details,
+  .shopify-buy__product-description,
+  .shopify-buy__btn {
+    float: right;
+  }
+
+  .shopify-buy__product {
+    width:  100%;
+    padding: 0;
+    display: inline-block;
+  }
+
+  .shopify-buy__product__title {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .shopify-buy__product__price {
+    font-size: 16px;
+  }
+
+  .shopify-buy__btn {
+    margin-top: 40px;
+  }
+}
+
+.is-active {
+  overflow-y: auto;
+}

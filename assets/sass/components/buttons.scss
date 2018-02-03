@@ -1,0 +1,93 @@
+
+.shopify-buy__btn {
+  border: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: $white;
+  border-radius: $radius;
+  background-color: #e8622f;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.buy-button-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.buy-button {
+  background: turquoise;
+  border: none;
+  padding: 8px 20px;
+  width: 100%;
+}
+
+.buy-button-listing {
+  position:relative;
+  vertical-align: middle;
+  color: $btn-border;
+  display: inline-block;
+  line-height: 38px;
+  text-align: center;
+  transition: 0.5s;
+  padding: 0 20px;
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.shopify-buy__btn--close {
+  background: transparent;
+  border: 0;
+  outline: none;
+  padding: 0;
+  font-size: 20px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.shopify-buy__btn {
+  .shopify-buy__btn--cart-checkout {
+    width: 100%;
+  }
+}
+
+.carousel-button {
+  color: transparent;
+
+  &.carousel-button--previous,
+  &.carousel-button--next {
+    position: absolute;
+    background: transparent;
+    border: 0;
+  }
+
+  &.carousel-button--previous {
+    left: 10px;
+    transform: rotateY(180deg);
+  }
+
+  &.carousel-button--next {
+    right: 10px;
+  }
+}
+
+.carousel-button-arrow {
+  width: 20px;
+}
+
+
